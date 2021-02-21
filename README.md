@@ -1,2 +1,2 @@
-# react-ts-portfolio
-portfolio-1st
+# portfolio-react-ts
+1st
