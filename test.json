@@ -1,0 +1,11 @@
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/h2-kurosawa/portfolio-react-ts.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/h2-kurosawa/portfolio-react-ts/issues"
+	},
+	"homepage": "https://github.com/h2-kurosawa/portfolio-react-ts#readme",
