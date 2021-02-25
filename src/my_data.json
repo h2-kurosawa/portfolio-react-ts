@@ -1,0 +1,70 @@
+{
+	"info": {
+		"name": "Hanako Kurosawa",
+		"titles": ["kintone App Customizer", "Front-end Developer"],
+		"social": [
+			{
+				"name": "github",
+				"url": "http://github.com/h2-kurosawa/",
+				"class": "fa"
+			}
+		]
+	},
+	"about": {
+		"section": "ABOUT ME",
+		"hello": "Hi.",
+		"description": "I'm Hanako Kurosawa.くろさわはなこです。",
+		"experience": [
+			{
+				"company": "Prime X Co.,Ltd.",
+				"years": "3.2019 - present",
+				"technologies": ["HTML 5", "CSS 3", "JavaScript", "MySQL", "Kintone"]
+			}
+		]
+	},
+	"skills": {
+		"section": "SKILLS",
+		"skill": [
+			{
+				"name": "HTML 5",
+				"level": "3",
+				"icon": "cib:html5-shield"
+			},
+			{
+				"name": "CSS 3",
+				"level": "3",
+				"icon": "cib:css3-shiled"
+			},
+			{
+				"name": "JavaScript",
+				"level": "3",
+				"icon": "cib:js"
+			},
+			{
+				"name": "MySQL",
+				"level": "3",
+				"icon": "cib:mysql"
+			}
+		],
+		"description": ["kintoneアプリの構成検討及びJavaScriptを用いたカスタマイズを実施します"]
+	},
+	"works": {
+		"section": "WORKS",
+		"app": [
+			{
+				"name": "My Portfolio",
+				"description": "本サイトです。",
+				"icon": "work_1.png",
+				"source": "https://github.com/h2-kurosawa/portfolio-react-ts",
+				"technologies": ["TypeScript", "React", "Webpack"]
+			},
+			{
+				"name": "comming soon..",
+				"description": "",
+				"icon": "work_no.png",
+				"source": "",
+				"technologies": []
+			}
+		]
+	}
+}

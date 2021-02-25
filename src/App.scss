@@ -1,0 +1,150 @@
+$bg-first: #eadbcc;
+$bg-second: #eaeaea;
+$bg-third: #d0c2c2;
+$bg-footer: #867e7a;
+$clr-border: #ddd8d6;
+$breakpoints: (
+	'sm': 'screen and (min-width: 600px)',
+	'md': 'screen and (min-width: 960px)',
+	'lg': 'screen and (min-width: 1280px)',
+	'xl': 'screen and (min-width: 1920px)',
+) !default;
+
+@mixin mq($breakpoint: md) {
+	@media #{map-get($breakpoints, $breakpoint)} {
+		@content;
+	}
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	@include mq() {
+		width: 70%;
+		max-width: 1500px;
+	}
+}
+
+section {
+	padding: 80px 0px;
+	@include mq() {
+		padding: 200px 0px;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	border-bottom: 3px solid $clr-border;
+}
+
+.title {
+	font-size: 1.6em;
+	font-weight: Bold 400;
+	color: #9d9d9d;
+	text-align: center;
+	padding-top: 50px;
+	@include mq() {
+		text-align: left;
+		padding: 0;
+	}
+}
+
+#header {
+	padding: 0;
+	background-color: $bg-first;
+	border-bottom: none;
+}
+
+#info {
+	background-color: $bg-first;
+	p {
+		font-size: 2.2em;
+		color: #707070;
+	}
+	@include mq() {
+		margin-top: 150px;
+		p {
+			font-size: 3em;
+		}
+	}
+}
+
+#about {
+	background-color: $bg-second;
+	p {
+		font-size: 2em;
+	}
+	.about-description {
+		max-width: 400px;
+		margin: 0 auto;
+		@include mq() {
+			margin: 0;
+		}
+	}
+}
+
+#skills {
+	background-color: $bg-first;
+	.icon-box {
+		font-size: 0.8em;
+		text-align: center;
+		margin-bottom: 10px;
+		@include mq() {
+			max-width: 80px;
+		}
+	}
+	.iconify {
+		width: 50px;
+		height: 50px;
+		padding: 5px;
+		margin-bottom: 10px;
+		border-radius: 7%;
+		background-color: #f2eaea;
+		box-shadow: 0 1px 2px #888888;
+	}
+}
+
+#works {
+	background-color: $bg-third;
+	.title {
+		color: #a08888;
+	}
+	.card-box {
+		max-width: 300px;
+		max-height: 350px;
+		min-height: 300px;
+		margin: 0 auto;
+		border-radius: 3%;
+		p {
+			font-size: 1.2em;
+			font-weight: bold;
+			color: #a08888;
+		}
+	}
+	.card-description {
+		display: block;
+		margin-bottom: 8px;
+		color: #707070;
+	}
+	.card-chip {
+		color: #9d9d9d;
+		margin-right: 5px;
+		margin-bottom: 3px;
+	}
+	a,
+	.iconify {
+		color: #a08888;
+		text-decoration: none;
+		&:hover {
+			color: #c6bcb0;
+		}
+	}
+}
+
+#footer {
+	min-height: 100px;
+	padding: 0;
+	background-color: $bg-footer;
+	border-bottom: none;
+}
