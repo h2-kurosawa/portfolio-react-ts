@@ -1,34 +1,4 @@
 declare namespace MyData {
-	/**App State */
-	interface State extends Response {
-		isLoading?: boolean
-	}
-	/**
-	 * オプショナルで型定義する
-	 * →子での受け取りもオプショナル
-	 * →子で参照できない
-	 * */
-	interface Response {
-		info?: {
-			name: string
-			titles: string
-			social: {
-				name: string
-				url: string
-				class: string
-			}[]
-			image: string
-			description: string
-			experience: {
-				company: string
-				years: string
-				technologies: string[]
-			}[]
-			section_name: {
-				[key: string]: string
-			}
-		}
-	}
 	/**Json Data */
 	namespace Items {
 		interface info {
@@ -43,7 +13,8 @@ declare namespace MyData {
 		interface about {
 			section: string
 			hello: string
-			description: string
+			description_en: string
+			description_ja: string
 			experience: {
 				company: string
 				years: string
@@ -68,6 +39,10 @@ declare namespace MyData {
 				source: string
 				technologies: string[]
 			}[]
+		}
+		interface footer {
+			section: string
+			copy: string
 		}
 	}
 }

@@ -3,8 +3,7 @@ import Grid from '@material-ui/core/Grid'
 
 type Props = { SkillsData: MyData.Items.skills }
 
-const Skills: React.FC<Props> = (props) => {
-	const { SkillsData } = props
+const Skills: React.FC<Props> = ({ SkillsData }) => {
 	return (
 		<section id="skills">
 			<div className="container">
@@ -31,11 +30,13 @@ const Skills: React.FC<Props> = (props) => {
 								</Grid>
 							)
 						})}
-						<ul>
+						{/* <div className="skill-description"> */}
+						<ul className="skill-description">
 							{SkillsData.description.map((desc, index) => {
 								return <li key={index}>{desc}</li>
 							})}
 						</ul>
+						{/* </div> */}
 					</Grid>
 				</Grid>
 			</div>

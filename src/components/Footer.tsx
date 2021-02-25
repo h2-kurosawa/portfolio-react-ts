@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Footer: React.FC = () => {
+type Props = { FooterData: MyData.Items.footer }
+
+const Footer: React.FC<Props> = ({ FooterData }) => {
 	return (
 		<section id="footer">
-			<div></div>
+			<p>
+				<small>{FooterData.copy}</small>
+			</p>
 		</section>
 	)
 }

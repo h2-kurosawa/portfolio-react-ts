@@ -9,11 +9,6 @@ import Footer from './components/Footer'
 import MyData from './my_data.json'
 import './App.scss'
 
-/**
- * 1. my_data.jsonを読み込む
- * 2. componentにわたす
- */
-
 class App extends React.Component {
 	render() {
 		return (
@@ -23,7 +18,7 @@ class App extends React.Component {
 				<About AboutData={MyData.about} />
 				<Skills SkillsData={MyData.skills} />
 				<Works WorksData={MyData.works} />
-				<Footer />
+				<Footer FooterData={MyData.footer} />
 			</>
 		)
 	}

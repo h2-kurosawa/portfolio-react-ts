@@ -13,7 +13,8 @@
 	"about": {
 		"section": "ABOUT ME",
 		"hello": "Hi.",
-		"description": "I'm Hanako Kurosawa.くろさわはなこです。",
+		"description_en": "I'm Hanako Kurosawa. I work at an ad agency as an engineer, and often customize kintone apps. ",
+		"description_ja": "kintoneとJavaScript中心に、他にもいろいろかじり始めています。はやりの食べ物はなめたけ。",
 		"experience": [
 			{
 				"company": "Prime X Co.,Ltd.",
@@ -56,7 +57,7 @@
 				"description": "本サイトです。",
 				"icon": "work_1.png",
 				"source": "https://github.com/h2-kurosawa/portfolio-react-ts",
-				"technologies": ["TypeScript", "React", "Webpack"]
+				"technologies": ["TypeScript", "React", "Sass"]
 			},
 			{
 				"name": "comming soon..",
@@ -66,5 +67,9 @@
 				"technologies": []
 			}
 		]
+	},
+	"footer": {
+		"section": "FOOTER",
+		"copy": "Hanako Kurosawa"
 	}
 }

@@ -6,8 +6,7 @@ import Chip from '@material-ui/core/Chip'
 
 type Props = { WorksData: MyData.Items.works }
 
-const Works: React.FC<Props> = (props) => {
-	const { WorksData } = props
+const Works: React.FC<Props> = ({ WorksData }) => {
 	return (
 		<section id="works">
 			<div className="container">

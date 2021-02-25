@@ -3,8 +3,7 @@ import Grid from '@material-ui/core/Grid'
 
 type Props = { AboutData: MyData.Items.about }
 
-const About: React.FC<Props> = (props) => {
-	const { AboutData } = props
+const About: React.FC<Props> = ({ AboutData }) => {
 	return (
 		<section id="about">
 			<div className="container">
@@ -19,7 +18,8 @@ const About: React.FC<Props> = (props) => {
 					</Grid>
 					<Grid item xs={12} md={6} className="about-description">
 						<p>{AboutData.hello}</p>
-						{AboutData.description}
+						<span>{AboutData.description_en}</span>
+						<span>{AboutData.description_ja}</span>
 					</Grid>
 				</Grid>
 			</div>
