@@ -30,13 +30,11 @@ const Skills: React.FC<Props> = ({ SkillsData }) => {
 								</Grid>
 							)
 						})}
-						{/* <div className="skill-description"> */}
 						<ul className="skill-description">
 							{SkillsData.description.map((desc, index) => {
 								return <li key={index}>{desc}</li>
 							})}
 						</ul>
-						{/* </div> */}
 					</Grid>
 				</Grid>
 			</div>

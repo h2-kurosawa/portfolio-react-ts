@@ -3,10 +3,8 @@ import Grid from '@material-ui/core/Grid'
 import { JokeType } from '../@types/joke'
 
 import axios from 'axios'
-// import { Transition } from 'react-transition-group'
 
 type Props = { InfoData: MyData.Items.info }
-// type Titles = { title: boolean }
 
 const Info: React.FC<Props> = ({ InfoData }) => {
 	const [show, setShow] = useState<boolean>(false)
@@ -33,19 +31,6 @@ const Info: React.FC<Props> = ({ InfoData }) => {
 				}
 			)
 	}, [])
-	// const onCloseModal = (): void => {
-	// 	setShow(false)
-	// }
-	// const [title, setTitle] = useState(false)
-	// const ChangeTitle = ({ title: boolean }: Titles) => {
-	// 	return (
-	// 		<Transition in={title} timeout={550}>
-	// 			{InfoData.titles.map((text, index) => {
-	// 				return <p key={index}>{text}</p>
-	// 			})}
-	// 		</Transition>
-	// 	)
-	// }
 
 	return (
 		<section id="info">
@@ -56,7 +41,6 @@ const Info: React.FC<Props> = ({ InfoData }) => {
 					</Grid>
 					<Grid item xs={12} md={6}>
 						<p className="title">{InfoData.name}</p>
-						{/* <ChangeTitle title={title} /> */}
 						<br />
 						<br />
 						<button onClick={onShowModal}> GET a JOKE !</button>
