@@ -3,9 +3,13 @@
 My First Portfolio --> **[CLICK HERE!](https://h2-kurosawa.github.io/portfolio-react-ts/)**
 
 🐑 : Create-React-App (--typescript)
+
 🐑 : TypeScript / React / Sass
+
 🐑 : Material-UI / iconify
+
 🐑 : ESLint / Prettier
+
 🐑 : GIMP / AdobeXD
 
 🐫 Update! -> 2021.02.26
@@ -74,6 +78,9 @@ My First Portfolio --> **[CLICK HERE!](https://h2-kurosawa.github.io/portfolio-r
 -   書籍：JavaScript Primer
 -   書籍：プログラミング TypeScript -オライリー
 
-🐑 🐑 🐑 🐑 🐑
- Thank you !
-🐑 🐑 🐑 🐑 🐑
+
+🐑　🐑　🐑　🐑　🐑
+
+    Thank you !
+
+🐑　🐑　🐑　🐑　🐑
