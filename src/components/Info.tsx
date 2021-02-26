@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Grid from '@material-ui/core/Grid'
 import { JokeType } from '../@types/joke'
 
@@ -10,10 +10,14 @@ const Info: React.FC<Props> = ({ InfoData }) => {
 	const [show, setShow] = useState<boolean>(false)
 	const [joke, setJoke] = useState<string>('')
 
-	const onShowModal = (): void => setShow(true)
+	const onShowModal = (): void => {
+		onSetJokeHandler()
+		// setShow(true)
+	}
 	const onCloseModal = (): void => setShow(false)
 
-	useEffect(() => {
+	// useEffect(() => {
+	const onSetJokeHandler = () => {
 		axios
 			.get('https://icanhazdadjoke.com/', {
 				headers: {
@@ -25,12 +29,14 @@ const Info: React.FC<Props> = ({ InfoData }) => {
 					const data: JokeType = JSON.parse(JSON.stringify(results.data))
 					console.log(data)
 					setJoke(data.joke)
+					setShow(true)
 				},
 				(err) => {
 					console.log(err)
 				}
 			)
-	}, [])
+	}
+	// }, [])
 
 	return (
 		<section id="info">
