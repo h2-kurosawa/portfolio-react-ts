@@ -74,6 +74,6 @@ My First Portfolio --> **[CLICK HERE!](https://h2-kurosawa.github.io/portfolio-r
 -   書籍：JavaScript Primer
 -   書籍：プログラミング TypeScript -オライリー
 
-♥️ 🐑 🐑 🐑 🐑 🐑
+🐑 🐑 🐑 🐑 🐑
 Thank you !
-🐑 🐑 🐑 🐑 🐑 ♥️
+🐑 🐑 🐑 🐑 🐑
