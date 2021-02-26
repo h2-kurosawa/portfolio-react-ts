@@ -20,7 +20,7 @@
 	"bugs": {
 		"url": "https://github.com/h2-kurosawa/portfolio-react-ts/issues"
 	},
-	"homepage": "./",
+	"homepage": "https://h2-kurosawa.github.io/portfolio-react-ts/",
 	"browserslist": {
 		"production": [
 			">0.2%",
