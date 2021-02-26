@@ -2,17 +2,19 @@
 
 My First Portfolio --> **[CLICK HERE!](https://h2-kurosawa.github.io/portfolio-react-ts/)**
 
-🐑 : Create-React-App (--typescript)
+🐑 :　Create-React-App (--typescript)
 
-🐑 : TypeScript / React / Sass
+🐑 :　TypeScript / React / Sass
 
-🐑 : Material-UI / iconify
+🐑 :　Material-UI / iconify
 
-🐑 : ESLint / Prettier
+🐑 :　ESLint / Prettier
 
-🐑 : GIMP / AdobeXD
+🐑 :　GIMP / AdobeXD
 
-🐫 Update! -> 2021.02.26
+-+-+-+- 
+
+🐫 　Update! -> 2021.02.26
 
 ## Process
 
